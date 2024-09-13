@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 function CreditCardPage() {
 
@@ -36,7 +36,9 @@ function CreditCardPage() {
 
   return <>
   <div>
+    
       <h1>Credit Card Management</h1>
+      <Link to={'/create'}><button className='btn btn-primary'>New Register</button></Link>
       <table className='table'>
         <thead>
           <tr>
