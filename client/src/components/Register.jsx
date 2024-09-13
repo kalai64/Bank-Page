@@ -11,7 +11,7 @@ function Register() {
     const Submit = async(e)=>{
         e.preventDefault()
         try {
-            const res = await axios.post('http://localhost:8000/create',{name,bankname})
+            const res = await axios.post('https://bank-page.onrender.com/create',{name,bankname})
             .then(res=> navigate('/credit-card-page'))
         } catch (error) {
             console.log(error)

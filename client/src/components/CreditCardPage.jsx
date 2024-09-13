@@ -10,7 +10,7 @@ function CreditCardPage() {
 
   const getData = async()=>{
     try {
-      const result = await axios.get('http://localhost:8000/getusers')
+      const result = await axios.get('https://bank-page.onrender.com/getusers')
       setUsers(result.data.users)
     } catch (error) {
       console.log(error)
@@ -25,7 +25,7 @@ function CreditCardPage() {
     const isConfirm = window.confirm('Are delete the data?')
     if(isConfirm){
         try {
-          await axios.delete('http://localhost:8000/deleteuser/'+id)
+          await axios.delete('https://bank-page.onrender.com/deleteuser/'+id)
           setUsers(users.filter(user => user._id !== id));
         } catch (error) {
           console.log(error)
