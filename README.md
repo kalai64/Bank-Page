@@ -1,12 +1,14 @@
-💳 #Bank Management App
+💳 Bank Management App
+
 Welcome to the Bank Management App built with the MERN stack! This application allows users to register their bank details, view them on a credit card page, and delete them as needed.
 
-📋 ##Features
+📋 Features
+
 Add Bank Details: Register new bank details with ease.
 Display Details: View the registered bank details on a dedicated page.
 Delete Details: Remove bank details when no longer needed.
 
-🏦 ##How to Use
+🏦 How to Use
 
 1.Add Bank Details
 Navigate to the "Add Details" page.
@@ -22,7 +24,7 @@ On the "Credit Card" page, find the details you want to delete.
 Click the "Delete" button next to the relevant details.
 Confirm the deletion to remove the details from the database.
 
-##🛠️ Technologies Used
+🛠️ Technologies Used
 MongoDB: Database
 Express.js: Backend framework
 React: Frontend library
